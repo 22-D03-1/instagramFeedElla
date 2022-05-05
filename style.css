@@ -4,9 +4,13 @@
   box-sizing: border-box;
 }
 body {
+  /* display: flex; */
   width: 100vw;
   height: 100vh;
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
+  background-color: rgba(var(--b3f, 250, 250, 250), 1);
+  max-width: 100%;
+  height: auto;
 }
 .container {
   width: 100vh;
@@ -68,4 +72,8 @@ body {
   background-image: url(./assets/IMG_1392.jpg);
   background-size: cover;
   background-position: 50% 50%;
+}
+*li {
+  max-width: 100%;
+  height: auto;
 }
