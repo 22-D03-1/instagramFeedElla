@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fafafa;
+}
+.container {
+  width: 100vh;
+  height: 100vh;
+  /* background-color: #fafafa; */
+  margin: 0 auto;
+}
+.container > div {
+  display: inline-block;
+  width: 33%;
+  aspect-ratio: 1;
+  outline: 1rem solid white;
+  /* padding: 3rem; */
+}
+
+.list1 {
+  background-image: url(./assets/CD8FEC78-D9AE-414D-8AF1-4F8111734C45.JPG);
+  background-size: cover;
+  background-position: center;
+}
+.list2 {
+  background-image: url(./assets/IMG_0437.jpg);
+  background-size: cover;
+  background-position: 50% 80%;
+}
+.list3 {
+  background-image: url(./assets/IMG_2490.jpg);
+  background-size: cover;
+  background-position: 50% 80%;
+}
+.list4 {
+  background-image: url(./assets/IMG_4036.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.list5 {
+  background-image: url(./assets/IMG_2159.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.list6 {
+  background-image: url(./assets/IMG_1794.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.list7 {
+  background-image: url(./assets/IMG_1842.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.list8 {
+  background-image: url(./assets/IMG_8033.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.list9 {
+  background-image: url(./assets/IMG_1392.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
